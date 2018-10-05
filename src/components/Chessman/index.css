@@ -1,0 +1,10 @@
+.Chessman {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.Chessman > img {
+  width: 100%;
+}

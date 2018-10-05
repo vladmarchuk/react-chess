@@ -1,0 +1,10 @@
+.Board {
+  position: relative;
+  width: 12.5%;
+  padding-bottom: 12.5%;
+  float: left;
+}
+
+.Board--allow {
+  box-shadow: inset 10px 10px 200px #1f1f1f;
+}
