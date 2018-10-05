@@ -8,12 +8,8 @@ class Chessman extends Component {
     activeTurn: this.props.activeTurn,
     originalX: 0,
     originalY: 0,
-
     translateX: 0,
     translateY: 0,
-
-    lastTranslateX: 0,
-    lastTranslateY: 0
   };
 
   componentWillUnmount() {
