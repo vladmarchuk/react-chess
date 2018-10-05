@@ -24,7 +24,7 @@ class Board extends Component {
       draggedItem: null,
       activeSquare: null,
       positions: this.props.defaultPositions,
-      intersectionBoxes: null
+      intersectionBoxes: this.props.intersectionBoxes
     };
   }
   onDragEnd(e) {
@@ -135,6 +135,7 @@ class Board extends Component {
 
 Board.defaultProps = {
   activeTurn: "white",
+  intersectionBoxes: [],
   defaultPositions: getChessmanPosition(defaultPositions)
 };
 
